@@ -13,13 +13,13 @@ public:
 	void Run();
 
 protected:
+	virtual void MinusLimitTime(float InMinusTime);
 	virtual bool IsRemainLimitTime() const;
 	virtual bool IsOverLimitTime() const;
 	
 private:
 	void RunTask(TSharedPtr<ITickDivisionTask> InTask);
 	float GetLimitTime() const;
-	void MinusLimitTime(float InMinusTime);
 	void OnTaskEndEvent(TSharedPtr<ITickDivisionTask>, ETickDivisionTaskStatus InTaskStatus);
 	
 private:
@@ -35,6 +35,7 @@ public:
 	FTickDivisionTaskUnlimitRunner(TArray<TSharedPtr<ITickDivisionTask>>& InTaskContainer, FTickDivisionSystemDelegate& InDelegate);
 	
 protected:
+	virtual void MinusLimitTime(float InMinusTime) override;
 	virtual bool IsRemainLimitTime() const override;
 	virtual bool IsOverLimitTime() const override;
 };

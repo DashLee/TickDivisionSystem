@@ -24,6 +24,11 @@ void FTickDivisionTaskRunner::Run()
 	}
 }
 
+void FTickDivisionTaskRunner::MinusLimitTime(float InMinusTime)
+{
+	m_LimitTime -= InMinusTime;
+}
+
 bool FTickDivisionTaskRunner::IsRemainLimitTime() const
 {
 	return m_LimitTime > 0.0f;
@@ -65,11 +70,6 @@ float FTickDivisionTaskRunner::GetLimitTime() const
 	return m_LimitTime;
 }
 
-void FTickDivisionTaskRunner::MinusLimitTime(float InMinusTime)
-{
-	m_LimitTime -= InMinusTime;
-}
-
 void FTickDivisionTaskRunner::OnTaskEndEvent(TSharedPtr<ITickDivisionTask> InTask, ETickDivisionTaskStatus InTaskStatus)
 {
 	m_Delegate.ExecuteIfBound(InTaskStatus, InTask);
@@ -80,6 +80,11 @@ void FTickDivisionTaskRunner::OnTaskEndEvent(TSharedPtr<ITickDivisionTask> InTas
 FTickDivisionTaskUnlimitRunner::FTickDivisionTaskUnlimitRunner(TArray<TSharedPtr<ITickDivisionTask>>& InTaskContainer, FTickDivisionSystemDelegate& InDelegate)
 	: FTickDivisionTaskRunner(0.0f, InTaskContainer, InDelegate)
 {
+}
+
+void FTickDivisionTaskUnlimitRunner::MinusLimitTime(float InMinusTime)
+{
+	// do nothing
 }
 
 bool FTickDivisionTaskUnlimitRunner::IsRemainLimitTime() const
