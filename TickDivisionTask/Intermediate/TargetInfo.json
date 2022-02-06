@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TickDivisionTask",
+			"Path": "D:\\WorkSpace\\Unreal Projects\\TickDivisionTask\\Source\\TickDivisionTask.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TickDivisionTaskEditor",
+			"Path": "D:\\WorkSpace\\Unreal Projects\\TickDivisionTask\\Source\\TickDivisionTaskEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

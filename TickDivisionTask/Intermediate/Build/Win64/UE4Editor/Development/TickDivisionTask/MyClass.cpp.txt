@@ -1,0 +1,2 @@
+D:\WorkSpace\Unreal Projects\TickDivisionTask\Intermediate\Build\Win64\UE4Editor\Development\TickDivisionTask\Definitions.TickDivisionTask.h
+D:\WorkSpace\Unreal Projects\TickDivisionTask\Source\TickDivisionTask\MyClass.h

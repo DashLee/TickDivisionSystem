@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\WorkSpace\\Unreal Projects\\TickDivisionTask\\Source\\TickDivisionSystem\\TickDivisionSystem.Build.cs",
+		"D:\\WorkSpace\\Unreal Projects\\TickDivisionTask\\Source\\TickDivisionTask\\TickDivisionTask.Build.cs",
+		"D:\\WorkSpace\\Unreal Projects\\TickDivisionTask\\Source\\TickDivisionTask.Target.cs",
+		"D:\\WorkSpace\\Unreal Projects\\TickDivisionTask\\Source\\TickDivisionTaskEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

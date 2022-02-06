@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TickDivisionTask.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{98DFFC40-2B81-42C2-836C-FA7A1D6DEBC2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TickDivisionTask.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TickDivisionTaskEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{982197E6-7E49-4FDF-BBE9-E2B2383C2B67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{62B091D7-7268-4C9E-9B72-9CEE93E27A5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android">
+      <UniqueIdentifier>{E129396C-0173-4101-BB72-016C996F9091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android\Config">
+      <UniqueIdentifier>{5DD47365-1A2E-4DD5-B7BF-03986A64FC66}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Android\Config\AndroidEngine.ini">
+      <Filter>Platforms\Android\Config</Filter>
+    </None>
+    <Filter Include="Platforms\IOS">
+      <UniqueIdentifier>{E675277F-E400-4918-802D-3F5A5F9A5082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\IOS\Config">
+      <UniqueIdentifier>{9B2603B6-2C8E-4C6F-96F2-6889DB437FE3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\IOS\Config\IOSEngine.ini">
+      <Filter>Platforms\IOS\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Linux">
+      <UniqueIdentifier>{2A3451C4-6D1C-4600-AF88-F3D44AE68627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Linux\Config">
+      <UniqueIdentifier>{98EE356A-CFDF-4DBC-A4BD-46E2A29E778D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Linux\Config\LinuxEngine.ini">
+      <Filter>Platforms\Linux\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Mac">
+      <UniqueIdentifier>{36B89AF9-8471-4147-AE19-A9A48D645B22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Mac\Config">
+      <UniqueIdentifier>{F45D7738-98BD-4935-A6A8-7641147B20BA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Mac\Config\MacEngine.ini">
+      <Filter>Platforms\Mac\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Windows">
+      <UniqueIdentifier>{9EC60C33-3D87-48DB-A5CC-DF8688BE06AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Windows\Config">
+      <UniqueIdentifier>{12B735FC-BEF9-43D6-8585-965D71E46DA4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Windows\Config\WindowsEngine.ini">
+      <Filter>Platforms\Windows\Config</Filter>
+    </None>
+    <Filter Include="Source\TickDivisionSystem">
+      <UniqueIdentifier>{D4D869D8-7560-4665-B0E9-A2C538FAECB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TickDivisionSystem\TickDivisionSystem.Build.cs">
+      <Filter>Source\TickDivisionSystem</Filter>
+    </None>
+    <Filter Include="Source\TickDivisionSystem\Private">
+      <UniqueIdentifier>{EDD94348-0BAE-4331-A2F8-BF2E159FC5F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TickDivisionSystem\Private\System">
+      <UniqueIdentifier>{A34F5744-BB5B-45CD-B62A-83E00E9D281E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TickDivisionSystem\Private\System\TickDivisionSystem.cpp">
+      <Filter>Source\TickDivisionSystem\Private\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TickDivisionSystem\Private\System\TickDivisionSystem.h">
+      <Filter>Source\TickDivisionSystem\Private\System</Filter>
+    </ClInclude>
+    <Filter Include="Source\TickDivisionSystem\Private\Task">
+      <UniqueIdentifier>{A1BC3A08-0EB0-4385-883C-152823E2D51D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TickDivisionSystem\Private\Task\TickDivisionTaskBase.cpp">
+      <Filter>Source\TickDivisionSystem\Private\Task</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TickDivisionSystem\Private\Task\TickDivisionTaskBase.h">
+      <Filter>Source\TickDivisionSystem\Private\Task</Filter>
+    </ClInclude>
+    <Filter Include="Source\TickDivisionSystem\Public">
+      <UniqueIdentifier>{1DB32FA3-03E7-4924-BA2A-53E370735F26}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TickDivisionSystem\Public\TickDivisionDefine.h">
+      <Filter>Source\TickDivisionSystem\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\TickDivisionSystem\Public\Interface">
+      <UniqueIdentifier>{92FB52FC-FC4B-4CA3-BC85-AC1ED798AE17}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TickDivisionSystem\Public\Interface\TickDivisionSystemInterface.h">
+      <Filter>Source\TickDivisionSystem\Public\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TickDivisionSystem\Public\Interface\TickDivisionTaskInterface.h">
+      <Filter>Source\TickDivisionSystem\Public\Interface</Filter>
+    </ClInclude>
+    <Filter Include="Source\TickDivisionTask">
+      <UniqueIdentifier>{B3B0FCA0-9BD2-4F51-A62E-0A79F333AAE2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TickDivisionTask\MyClass.cpp">
+      <Filter>Source\TickDivisionTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TickDivisionTask\MyClass.h">
+      <Filter>Source\TickDivisionTask</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TickDivisionTask\TickDivisionTask.Build.cs">
+      <Filter>Source\TickDivisionTask</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TickDivisionTask\TickDivisionTask.cpp">
+      <Filter>Source\TickDivisionTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TickDivisionTask\TickDivisionTask.h">
+      <Filter>Source\TickDivisionTask</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
