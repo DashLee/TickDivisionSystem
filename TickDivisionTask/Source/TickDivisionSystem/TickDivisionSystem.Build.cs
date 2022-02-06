@@ -9,10 +9,5 @@ public class TickDivisionSystem : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
-
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
-
-		PublicIncludePaths.Add("Public");
-		PrivateIncludePaths.Add("Private");
 	}
 }
